@@ -1,4 +1,6 @@
-import SuperHero2 from "~/superhero2.png";
+import SuperHero1 from "~/assets/images/super-hero-1.png";
+import GraphicsBefore2 from "~/assets/images/bg-graphics-before-2.png";
+import { Link } from "react-router";
 
 const Awards = () => {
   return (
@@ -62,12 +64,44 @@ const Awards = () => {
 
       <section className="bg-[radial-gradient(50%_62.26%_at_50%_50%,#970020_0%,#4A010F_100%)] py-10 md:py-20 relative">
         <h3 className="text-yellow-gradient text-center text-3xl md:text-5xl font-bold">
-          Our Awards
+          Take your best decision
         </h3>
         <p className="text-white text-center md:text-xl mt-5">
           Reasons why we are the best ?
         </p>
-        <img src={SuperHero2} alt="superhero2" className="absolute top-0 right-0" />
+        <img
+          src={SuperHero1}
+          alt="superhero1"
+          className="mt-15 mx-auto w-1/3 relative z-10"
+        />
+        <img
+          src={GraphicsBefore2}
+          alt="graphicsbefore2"
+          className="absolute top-0 left-0 w-full h-full opacity-15"
+        />
+      </section>
+
+      <section className="py-10 md:py-20">
+        <div className="px-5">
+          <div className="md:w-5/12 mx-auto text-center">
+            <h2 className="text-3xl md:text-6xl font-bold">
+              Integrated with your favorite tools.
+            </h2>
+            <p className="text-sm md:text-xl mt-8">
+              with FXERO’s Build your HFT strategies
+            </p>
+            <Link
+              to="/signup"
+              className="bg-red-radial text-white px-10 py-5 inline-block mt-10 rounded"
+            >
+              Try For Free
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="rounded-t-4xl bg-red-radial text-5xl md:text-7xl text-white py-20 md:py-40 font-bold">
+        <div className="md:w-7/12 text-center">Start achieving exitance with 999.forex</div>
       </section>
     </div>
   );

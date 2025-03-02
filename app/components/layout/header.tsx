@@ -257,7 +257,7 @@ const aboutUsLinks = [
   },
   {
     title: "Contact Us",
-    href: "/about/contact-us",
+    href: "/contact-us",
     description: "Get in touch with us.",
   },
   {
