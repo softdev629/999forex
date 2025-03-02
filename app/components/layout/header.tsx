@@ -247,7 +247,7 @@ const aboutUsLinks = [
   },
   {
     title: "Awards",
-    href: "/about/awards",
+    href: "/awards",
     description: "See the awards we have won.",
   },
   {

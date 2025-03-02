@@ -33,76 +33,78 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
   return (
-    <div className="bg-[linear-gradient(90deg,_#FFAB03_0%,_#FEC505_65.5%,_#FEDC4B_100%)]">
-      <section className="bg-[linear-gradient(90deg,_#FFB604_21.17%,_rgba(255,_184,_3,_0.678334)_45.17%,_rgba(254,_188,_1,_0)_100%)]">
-        <div className="max-w-[1500px] mx-auto relative px-4 sm:px-6">
-          <div className="pt-8 sm:pt-34 md:pt-20">
-            <div className="flex gap-2 text-[#3D5575] font-bold text-sm sm:text-base">
-              <span>Excellent</span>
-              <img
-                src={TrustPilotStars}
-                alt="Trustpilot Stars"
-                className="h-5 sm:h-auto"
-              />
-              <img
-                src={TrustLogoWhite}
-                alt="Trustpilot Logo"
-                className="h-5 sm:h-auto"
-              />
-              <span>Trustpilot</span>
+    <div className="bg-yellow-gradient">
+      <section className="bg-yellow-gradient">
+        <div className="relative px-4 sm:px-6 flex flex-col md:flex-row">
+          <div className="flex-1">
+            <div className="pt-8 sm:pt-34 md:pt-20">
+              <div className="flex gap-2 text-gray-gradient font-bold text-sm sm:text-base">
+                <span>Excellent</span>
+                <img
+                  src={TrustPilotStars}
+                  alt="Trustpilot Stars"
+                  className="h-5 sm:h-auto"
+                />
+                <img
+                  src={TrustLogoWhite}
+                  alt="Trustpilot Logo"
+                  className="h-5 sm:h-auto"
+                />
+                <span>Trustpilot</span>
+              </div>
             </div>
-          </div>
-          <h2 className="text-3xl md:text-4xl md:w-100 lg:text-[48px] lg:w-120 sm:text-[64px] max-w-full sm:w-150 font-bold bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent mt-6 sm:mt-0">
-            Enjoy Technology Enjoy Investing.
-          </h2>
-          <p className="text-[#425472] max-w-full sm:w-140 lg:w-120 md:w-100 text-lg sm:text-2xl mt-4">
-            Build your HFT strategies with FXERO's free API Raw Spreads From 0.0
-            pips
-          </p>
+            <h2 className="text-3xl md:text-4xl md:w-100 lg:text-[48px] lg:w-120 sm:text-[64px] max-w-full sm:w-150 font-bold mt-6 sm:mt-0">
+              Enjoy Technology Enjoy Investing.
+            </h2>
+            <p className="text-gray-gradient max-w-full sm:w-140 lg:w-120 md:w-100 text-lg sm:text-2xl mt-4">
+              Build your HFT strategies with FXERO's free API Raw Spreads From
+              0.0 pips
+            </p>
 
-          <div className="flex flex-wrap gap-3 mt-10 sm:mt-20">
-            <img
-              src={LinkGooglePlay}
-              alt="Link Google Play"
-              className="h-12 sm:h-auto"
-            />
-            <img
-              src={LinkAppStore}
-              alt="Link App Store"
-              className="h-12 sm:h-auto"
-            />
-            <img
-              src={AppScanner}
-              alt="App Scanner"
-              className="h-12 sm:h-auto"
-            />
-          </div>
-
-          <div className="flex items-center mt-8 sm:mt-10 pb-10 sm:pb-25 md:pb-10">
-            <div className="relative flex-1 max-w-[500px] md:max-w-[400px]">
-              <Input
-                type="email"
-                placeholder="satoshi@gmail.com"
-                className="h-12 sm:h-14 pl-4 sm:pl-6 pr-24 sm:pr-32 text-base sm:text-lg bg-white rounded-lg border-0 focus-visible:ring-0 focus-visible:ring-offset-0"
+            <div className="flex flex-wrap gap-3 mt-10">
+              <img
+                src={LinkGooglePlay}
+                alt="Link Google Play"
+                className="h-12 sm:h-auto"
               />
-              <Link
-                to="/signup"
-                className="absolute right-2 top-1/2 -translate-y-1/2 bg-[linear-gradient(180deg,_#2B2534_0%,_#312D3E_49.51%,_#4E4B65_100%)] text-white cursor-pointer rounded-xl border-none px-3 sm:px-4 py-2 text-xs sm:text-sm"
-              >
-                Sign Up
-              </Link>
+              <img
+                src={LinkAppStore}
+                alt="Link App Store"
+                className="h-12 sm:h-auto"
+              />
+              <img
+                src={AppScanner}
+                alt="App Scanner"
+                className="h-12 sm:h-auto"
+              />
+            </div>
+
+            <div className="mt-8 sm:mt-10 pb-10 sm:pb-25 md:pb-10">
+              <div className="relative max-w-[500px] md:max-w-[400px]">
+                <Input
+                  type="email"
+                  placeholder="satoshi@gmail.com"
+                  className="h-12 sm:h-14 pl-4 sm:pl-6 pr-24 sm:pr-32 text-base sm:text-lg bg-white rounded-lg border-0 focus-visible:ring-0 focus-visible:ring-offset-0"
+                />
+                <Link
+                  to="/signup"
+                  className="absolute right-2 top-1/2 -translate-y-1/2 bg-gray-gradient text-white cursor-pointer rounded-xl border-none px-3 sm:px-4 py-2 text-xs sm:text-sm"
+                >
+                  Sign Up
+                </Link>
+              </div>
             </div>
           </div>
           <img
             src={HeroImage}
             alt="Hero Image"
-            className="md:absolute top-10 lg:top-[60%] right-0 xl:block lg:w-1/2 md:w-1/3 md:right-10 md:max-w-[580px] sm:block sm:relative sm:mx-auto md:top-1/2 md:translate-y-[-50%]"
+            className="flex-1 md:max-w-1/2"
           />
         </div>
       </section>
 
-      <section className="bg-[url('/section-2-background.png')] bg-cover bg-center mt-10 sm:mt-20 relative pt-8 py-10 sm:py-20">
-        <div className="max-w-[1500px] mx-auto pt-20 sm:pt-37 px-4 sm:px-6">
+      <section className="bg-section-img mt-10 sm:mt-20 relative pt-8 py-10 sm:py-20">
+        <div className="pt-20 sm:pt-37 px-4 sm:px-6">
           <div className="bg-gradient-to-b from-[#970020] to-[#4A010F] border-8 rounded-full border-[#FFB803] text-primary text-3xl sm:text-5xl font-bold w-fit mx-auto px-3 py-2 relative">
             Reasons why we are the best ?
             <img
@@ -113,52 +115,51 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col md:flex-row justify-between mt-15 sm:mt-25 gap-10 sm:items-center md:items-baseline md:flex-wrap sm:justify-center">
-            <div className="flex gap-5">
+            <div className="flex flex-1 gap-5">
               <img
                 src={Hero1}
                 alt="Hero 1"
                 className="w-16 h-16 sm:w-25 sm:h-25"
               />
               <div className="flex flex-col gap-2">
-                <h3 className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent text-xl sm:text-2xl font-bold">
+                <h3 className="text-xl sm:text-2xl font-bold">
                   Trade on Global <br /> markets
                 </h3>
-                <p className="bg-[linear-gradient(180deg,_#000000_0%,_#000000_100%)] bg-clip-text text-transparent text-sm">
-                  Forex, Crypto Currency, Commodities, Stocks <br /> CFDs
+                <p className="text-sm">
+                  Forex, Crypto Currency, Commodities, Stocks CFDs
                   Trading and Investing
                 </p>
               </div>
             </div>
 
-            <div className="flex gap-5">
+            <div className="flex flex-1 gap-5">
               <img
                 src={Hero2}
                 alt="Hero 2"
                 className="w-16 h-16 sm:w-25 sm:h-25"
               />
               <div className="flex flex-col gap-2">
-                <h3 className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent text-xl sm:text-2xl font-bold">
+                <h3 className="text-xl sm:text-2xl font-bold">
                   Segregated funds <br /> Protection of investment
                 </h3>
-                <p className="bg-[linear-gradient(180deg,_#000000_0%,_#000000_100%)] bg-clip-text text-transparent text-sm">
-                  We are committed to providing a trusted and <br /> reliable
-                  trading environment for all our clients
+                <p className="text-sm">
+                  We are committed to providing a trusted and reliable trading environment for all our clients
                 </p>
               </div>
             </div>
 
-            <div className="flex gap-5">
+            <div className="flex flex-1 gap-5">
               <img
                 src={Hero3}
                 alt="Hero 3"
                 className="w-16 h-16 sm:w-25 sm:h-25"
               />
               <div className="flex flex-col gap-2">
-                <h3 className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent text-xl sm:text-2xl font-bold">
+                <h3 className="text-xl sm:text-2xl font-bold">
                   Unparalleled <br /> trading conditions
                 </h3>
-                <p className="bg-[linear-gradient(180deg,_#000000_0%,_#000000_100%)] bg-clip-text text-transparent text-sm">
-                  Trade with fast execution and tight spreads. <br /> Supports
+                <p className="text-sm">
+                  Trade with fast execution and tight spreads. Supports
                   all algo trading strategies
                 </p>
               </div>
@@ -167,11 +168,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[url('/section-2-background.png')] bg-cover bg-center mt-10 sm:mt-20 relative">
-        <div className="max-w-[1500px] mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center pt-20 md:py-0">
+      <section className="bg-section-img mt-10 sm:mt-20 relative">
+        <div className="px-4 sm:px-6 flex flex-col md:flex-row items-center pt-20 md:py-0">
           <div className="flex-1">
             <div className="px-5 md:pr-25">
-              <h2 className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent text-3xl sm:text-5xl font-bold">
+              <h2 className="text-3xl sm:text-5xl font-bold">
                 Leaders in zero- commission
               </h2>
               <h3 className="mt-4 sm:mt-6 text-base sm:text-lg">
@@ -180,27 +181,27 @@ export default function Home() {
                 services worldwide.
               </h3>
               <ul className="pl-6 sm:pl-9 flex flex-col gap-2 mt-4">
-                <li className="flex gap-2 items-center text-sm sm:text-base">
-                  <ChevronRight /> Deposit & trade Crypto
+                <li className="flex text-xs sm:text-base">
+                  <ChevronRight className="pr-2" /> Deposit & trade Crypto
                 </li>
-                <li className="flex gap-2 items-center text-sm sm:text-base">
-                  <ChevronRight /> Trading solutions and resources for all
+                <li className="flex text-xs sm:text-base">
+                  <ChevronRight className="pr-2" /> Trading solutions and resources for all
                   experience levels
                 </li>
-                <li className="flex gap-2 items-center text-sm sm:text-base">
-                  <ChevronRight /> World-class customer support
+                <li className="flex text-xs sm:text-base">
+                  <ChevronRight className="pr-2" /> World-class customer support
                 </li>
               </ul>
               <div className="flex flex-col sm:flex-row gap-3 mt-6">
                 <Link
                   to="/signup"
-                  className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] text-white flex-1 border-none px-4 py-2 text-sm text-center rounded"
+                  className="bg-red-gradient text-white flex-1 border-none px-4 py-2 text-sm text-center rounded"
                 >
                   Open an Account
                 </Link>
                 <Link
                   to="/signup"
-                  className="flex-1 border-2 border-solid [border-image:linear-gradient(180deg,_#970020_0%,_#4A010F_100%)_1] bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent rounded-xl px-4 py-2 text-sm text-center"
+                  className="flex-1 border-2 border-solid [border-image:linear-gradient(180deg,_#970020_0%,_#4A010F_100%)_1] text-red-gradient rounded-xl px-4 py-2 text-sm text-center"
                 >
                   Open Free Demo Account
                 </Link>
@@ -213,55 +214,55 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[url('/section-2-background.png')] bg-cover bg-center mt-10 sm:mt-20 relative py-10 sm:py-20">
-        <div className="max-w-[1500px] mx-auto px-4 sm:px-6">
+      <section className="bg-section-img mt-10 sm:mt-20 relative py-10 sm:py-20">
+        <div className="px-4 sm:px-6">
           <img src={TradingChart} alt="Trading Chart" className="w-full" />
         </div>
       </section>
 
       <section className="py-10 sm:py-20">
-        <div className="max-w-[1500px] mx-auto flex flex-col sm:flex-row px-4 sm:px-6">
+        <div className="flex flex-col sm:flex-row px-4 sm:px-6">
           <div className="flex-1 sm:pr-25 flex flex-col justify-center mb-8 sm:mb-0">
-            <h2 className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent text-3xl sm:text-5xl font-bold">
+            <h2 className="text-3xl sm:text-5xl font-bold">
               Discover 10 Years of 999.forex
             </h2>
-            <p className="mt-6 text-xl">
+            <p className="mt-6 text-base md:text-xl">
               "At 999.forex, we've been serving our clients for over 10 years.
               In that time, the world of Forex trading has changed a lot."
             </p>
-            <p className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent text-xl mt-9">
+            <p className="text-base md:text-xl mt-9">
               Watch our video to learn more about 999.forex history.
             </p>
           </div>
           <div className="flex-1">
-            <img src={VideoPlay} alt="Video Play" className="w-full" />
+            <img src={VideoPlay} alt="Video Play" className="w-full px-5" />
           </div>
         </div>
       </section>
 
       <section className="py-20">
-        <div className="max-w-[1500px] mx-auto flex md:flex-row flex-col">
+        <div className="flex md:flex-row flex-col-reverse">
           <div className="flex-1">
-            <img src={MoneyUI} alt="Money UI" />
+            <img src={MoneyUI} className="px-5" alt="Money UI" />
           </div>
-          <div className="flex-1 md:pl-25 pl-5">
-            <h2 className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent text-5xl font-bold">
+          <div className="flex-1 md:pl-25 px-5">
+            <h2 className="text-3xl md:text-5xl font-bold">
               In-Depth Daily Market Analysis
             </h2>
-            <p className="mt-10 text-xl">
+            <p className="mt-10 text-base md:text-xl">
               At FXERO, we believe that the best trader is an educated one. We
               analyse and explain the price movements of the global markets,
               giving traders all the in-depth knowledge they need to make their
               next move.
             </p>
-            <p className="my-10 text-xl">
+            <p className="my-10 text-base md:text-xl">
               Keep on top of the latest forex news, including updates on popular
               currencies such as the GBP, USD and EUR, commodities markets and
               more from our very own FX market specialists.
             </p>
             <Link
               to="/market-analysis"
-              className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent font-bold text-xl"
+              className="text-red-gradient font-bold text-xl"
             >
               Learn More
             </Link>
@@ -269,28 +270,26 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-20 bg-[url('/section-2-background.png')] bg-cover bg-center">
-        <div className="max-w-[1500px] mx-auto flex md:flex-row flex-col">
+      <section className="py-20 bg-section-img">
+        <div className="flex md:flex-row flex-col gap-10">
           <div className="flex-1 flex flex-col justify-center">
             <div className="xl:pr-60 px-5 md:pr-20 lg:pr-40">
-              <h2 className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent text-5xl font-bold">
-                Super-fast elegant UI
-              </h2>
-              <p className="my-10 text-xl">
+              <h2 className="text-3xl md:text-5xl font-bold">Super-fast elegant UI</h2>
+              <p className="my-10 text-base md:text-xl">
                 FXERO's super-fast flagship trading platform with elegant UI,
                 Inbuild strategies, streaming market data, advanced charts.
                 Experience the way of trading.
               </p>
               <Link
                 to="/web-application"
-                className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent font-bold text-xl"
+                className="text-red-gradient font-bold text-base md:text-xl"
               >
                 Learn More
               </Link>
             </div>
           </div>
           <div className="flex-1">
-            <img src={SwapUI} alt="Swap UI" />
+            <img src={SwapUI} className="px-5" alt="Swap UI" />
           </div>
         </div>
       </section>
@@ -301,17 +300,17 @@ export default function Home() {
           alt="Graphics Before"
           className="absolute top-0 left-0 opacity-50 w-full h-full"
         />
-        <div className="max-w-[1500px] mx-auto flex lg:flex-row flex-col relative z-10 justify-center items-center">
-          <div className="flex-1">
+        <div className="flex lg:flex-row flex-col relative z-10 justify-center items-center">
+          <div className="flex-1 px-5">
             <img src={TradeUI} alt="Trade UI" />
           </div>
 
           <div className="flex-1">
             <div className="px-5 md:px-25">
-              <h2 className="bg-[linear-gradient(90deg,_#FFAB03_0%,_#FEC505_65.5%,_#FEDC4B_100%)] bg-clip-text text-transparent text-5xl font-bold tracking-[-1.58px] leading-15">
+              <h2 className="text-yellow-gradient text-3xl md:text-5xl font-bold tracking-[-1.58px] leading-15">
                 One-click trade & Place TP/SL from charts
               </h2>
-              <p className="my-10 text-xl text-white tracking-[-0.66px] leading-10">
+              <p className="my-10 text-base md:text-xl text-white tracking-[-0.66px] leading-10">
                 Hundreds of indicators, studies, and tools on a powerful and
                 customisable charting interface. Extensive historical data for
                 forex, crypto, stocks and metals from 20+ exchanges. Nobody else
@@ -319,7 +318,7 @@ export default function Home() {
               </p>
               <Link
                 to="/web-application"
-                className="bg-[linear-gradient(90deg,_#FFAB03_0%,_#FEC505_65.5%,_#FEDC4B_100%)] bg-clip-text text-transparent font-bold text-xl"
+                className="text-yellow-gradient font-bold text-base md:text-xl"
               >
                 Learn More
               </Link>
@@ -329,13 +328,11 @@ export default function Home() {
       </section>
 
       <section className="py-20">
-        <div className="max-w-[1500px] mx-auto flex md:flex-row flex-col">
+        <div className="flex md:flex-row flex-col">
           <div className="md:flex-1 flex flex-col justify-center">
             <div className="xl:pr-60 px-5 md:pr-20 lg:pr-40">
-              <h2 className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent text-5xl font-bold">
-                Sleek User Interface
-              </h2>
-              <p className="mt-10 text-xl">
+              <h2 className="text-3xl md:text-5xl font-bold">Sleek User Interface</h2>
+              <p className="mt-10 text-base md:text-xl">
                 With a sleek and carefully designed UI, buying, selling,
                 analysing, and managing your portfolio, everything's just a
                 click away.
@@ -345,17 +342,17 @@ export default function Home() {
                 <div className="w-15 h-15 flex items-center justify-center bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] rounded-xl">
                   <Layers className="w-5 h-5 text-white" />
                 </div>
-                <p className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent font-bold">
+                <p className="text-red-gradient font-bold text-sm md:text-base">
                   Easy to Customize <br />
                   Components
                 </p>
               </div>
 
               <div className="flex gap-4 items-center mt-10 mb-15">
-                <div className="w-15 h-15 flex items-center justify-center bg-[linear-gradient(180deg,_#2B2534_0%,_#312D3E_49.51%,_#4E4B65_100%)] rounded-xl">
+                <div className="w-15 h-15 flex items-center justify-center bg-gray-gradient rounded-xl">
                   <Zap className="w-5 h-5 fill-primary stroke-0" />
                 </div>
-                <p className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent font-bold">
+                <p className="text-red-gradient font-bold text-sm md:text-base">
                   User Friendly <br />
                   Interface
                 </p>
@@ -363,7 +360,7 @@ export default function Home() {
 
               <Link
                 to="/signup"
-                className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] px-9 py-5 rounded text-white text-sm inline-block mb-10"
+                className="bg-red-gradient px-9 py-5 rounded text-white text-sm inline-block mb-10"
               >
                 TRY FOR FREE
               </Link>
@@ -375,9 +372,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mt-20 bg-[linear-gradient(180deg,_#FFAB03_0%,_#FEC505_83.17%,_#FEDC4B_100%)] py-20">
-        <div className="max-w-[1500px] mx-auto">
-          <h2 className="bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent text-5xl font-bold text-center">
+      <section className="bg-yellow-gradient py-20">
+        <div className="px-5">
+          <h2 className="text-3xlmd:text-5xl font-bold text-center">
             Learn Forex trading has never <br /> been easier.
           </h2>
           <img
@@ -385,38 +382,38 @@ export default function Home() {
             alt="Img Section Last"
             className="mt-20 mx-auto"
           />
-          <div className="flex justify-between mt-25 md:flex-row flex-col md:gap-0 gap-10 md:pl-0 sm:pl-20">
+          <div className="flex justify-between mt-25 md:flex-row flex-col md:gap-0 gap-10 px-5 md:pl-0">
             <div className="flex gap-6">
-              <div className="w-15 h-15 flex justify-center items-center bg-[linear-gradient(180deg,_#2B2534_0%,_#312D3E_49.51%,_#4E4B65_100%)] rounded-full">
+              <div className="w-15 h-15 flex justify-center items-center bg-gray-gradient rounded-full">
                 <MessageCircle className="w-5 h-5 text-white" />
               </div>
-              <div>
-                <h4 className="text-[#162647] font-bold">FXERO Raw spread</h4>
-                <p className="text-[#212529]">
+              <div className="flex-1">
+                <h4 className="font-bold">FXERO Raw spread</h4>
+                <p className="text-sm md:text-base">
                   Enjoy spreads as low as 0.0 pips^ with deep <br /> liquidity
                   and no requotes.
                 </p>
               </div>
             </div>
             <div className="flex gap-6">
-              <div className="w-15 h-15 flex justify-center items-center bg-[linear-gradient(180deg,_#2B2534_0%,_#312D3E_49.51%,_#4E4B65_100%)] rounded-full">
+              <div className="w-15 h-15 flex justify-center items-center bg-gray-gradient rounded-full">
                 <Layers className="w-5 h-5 text-white" />
               </div>
-              <div>
-                <h4 className="text-[#162647] font-bold">Fast and reliable</h4>
-                <p className="text-[#212529]">
+              <div className="flex-1">
+                <h4 className="font-bold">Fast and reliable</h4>
+                <p className="text-sm md:text-base">
                   Fast execution, 99.9% fill rate*, and no <br />
                   dealing desk intervention.
                 </p>
               </div>
             </div>
             <div className="flex gap-6">
-              <div className="w-15 h-15 flex justify-center items-center bg-[linear-gradient(180deg,_#2B2534_0%,_#312D3E_49.51%,_#4E4B65_100%)] rounded-full">
+              <div className="w-15 h-15 flex justify-center items-center bg-gray-gradient rounded-full">
                 <Pizza className="w-5 h-5 text-white" />
               </div>
-              <div>
-                <h4 className="text-[#162647] font-bold">Globally Markets</h4>
-                <p className="text-[#212529]">
+              <div className="flex-1">
+                <h4 className="font-bold">Globally Markets</h4>
+                <p className="text-sm md:text-base">
                   Trade on US stocks, Europe stocks and HK
                   <br /> stocks
                 </p>

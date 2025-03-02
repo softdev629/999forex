@@ -132,7 +132,52 @@ body {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
+  }
+
+  h2, h3 {
+    @apply text-4xl font-bold bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent;
+  }
+
+  p {
+    @apply text-lg bg-[linear-gradient(180deg,_#2B2534_0%,_#312D3E_49.51%,_#4E4B65_100%)] bg-clip-text text-transparent;
+  }
+
+  .text-red-gradient {
+    @apply bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent;
+  }
+
+  .bg-red-gradient {
+    @apply bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)];
+  }
+
+  .bg-red-radial {
+    @apply bg-[radial-gradient(50%_50%_at_50%_50%,_#FC3700_0%,_#B32700_0.01%,_#801C00_100%)];
+  }
+
+  .text-gray-gradient {
+    @apply bg-[linear-gradient(180deg,_#2B2534_0%,_#312D3E_49.51%,_#4E4B65_100%)] bg-clip-text text-transparent;
+  }
+
+  .bg-gray-gradient {
+    @apply bg-[linear-gradient(180deg,_#2B2534_0%,_#312D3E_49.51%,_#4E4B65_100%)];
+  }
+
+  .text-yellow-gradient {
+    @apply bg-[linear-gradient(180deg,_#FFAB03_0%,_#FEC505_65.5%,_#FEDC4B_100%)] bg-clip-text text-transparent;
+  }
+
+  .bg-yellow-gradient {
+    @apply bg-[linear-gradient(180deg,_#FFAB03_0%,_#FEC505_65.5%,_#FEDC4B_100%)];
+  }
+
+  .bg-section-img {
+    @apply bg-[url('/section-2-background.png')] bg-cover bg-center;
+  }
+
+  section > div {
+    @apply max-w-[1500px] mx-auto;
   }
 }

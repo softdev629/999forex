@@ -74,13 +74,13 @@ const Footer = () => {
 
         {/* Footer text sections */}
         <div className="space-y-6 sm:space-y-10 mt-8 sm:mt-10 text-sm sm:text-base">
-          <p className="text-white/60">
+          <p className="text-white/60 text-xs sm:text-base">
             FXERO brings intelligent, driven, and curious minds from the trading
             industry together to collaborate and solve quantitative finance and
             technical problems. FXERO brings best trading experience for traders.
           </p>
 
-          <p className="text-white/60">
+          <p className="text-white/60 text-xs sm:text-base">
             Risk Warning: Trading Forex and Leveraged Financial Instruments
             involves significant risk and can result in the loss of your invested
             capital. You should not invest more than you can afford to lose and
@@ -95,7 +95,7 @@ const Footer = () => {
             Disclosure.
           </p>
 
-          <p className="text-white/60">
+          <p className="text-white/60 text-xs sm:text-base">
             FXERO Ltd does not direct its website and services to any individual
             in any country in which the use of its website and services are
             prohibited by local laws or regulations. When accessing this website
@@ -106,7 +106,7 @@ const Footer = () => {
             jurisdictions.
           </p>
 
-          <p className="text-white/60">
+          <p className="text-white/60 text-xs sm:text-base">
             Copyright © 2025 FXERO. All rights reserved.
           </p>
         </div>
