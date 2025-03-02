@@ -262,7 +262,7 @@ const aboutUsLinks = [
   },
   {
     title: "FQAs",
-    href: "/about/faqs",
+    href: "/faqs",
     description: "Find answers to your questions.",
   },
 ];
