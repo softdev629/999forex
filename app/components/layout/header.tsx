@@ -276,30 +276,30 @@ const productsLinks = [
   },
   {
     title: "Mobile",
-    href: "/products/mobile",
+    href: "/web-application",
     description:
       "Trade on-the-go with our powerful mobile trading application.",
   },
   {
     title: "Trading View Charts",
-    href: "/trading-view-charts",
+    href: "/web-application",
     description:
       "Advanced technical analysis with professional-grade charting tools.",
   },
   {
     title: "MT4 to Fxero API",
-    href: "/products/mt4-to-fxero-api",
+    href: "/fxero-api",
     description:
       "Seamlessly connect MetaTrader 4 to our advanced trading infrastructure.",
   },
   {
     title: "MT5 to Fxero API",
-    href: "/products/mt5-to-fxero-api",
+    href: "/fxero-api",
     description: "Integrate MetaTrader 5 with our robust trading ecosystem.",
   },
   {
     title: "FXERO API",
-    href: "/products/fxero-api",
+    href: "/fxero-api",
     description:
       "Build custom trading solutions with our comprehensive REST API.",
   },
@@ -308,37 +308,37 @@ const productsLinks = [
 const tradingInstrumentsLinks = [
   {
     title: "Forex",
-    href: "/trading-instruments/forex",
+    href: "/trading-instruments",
     description:
       "Trade major, minor and exotic currency pairs with competitive spreads.",
   },
   {
     title: "Crypto",
-    href: "/trading-instruments/crypto",
+    href: "/trading-instruments#crypto",
     description:
       "Access 24/7 cryptocurrency trading with leading digital assets.",
   },
   {
     title: "Stocks",
-    href: "/trading-instruments/stocks",
+    href: "/trading-instruments#stocks",
     description:
       "Invest in global companies with commission-free stock trading.",
   },
   {
     title: "Metals",
-    href: "/trading-instruments/metals",
+    href: "/trading-instruments#metals",
     description:
       "Trade precious metals like Gold and Silver with tight spreads.",
   },
   {
     title: "Stock CFDs",
-    href: "/trading-instruments/stock-cfds",
+    href: "/trading-instruments#stock-cfds",
     description:
       "Trade global stocks with leverage and no ownership requirements.",
   },
   {
     title: "Commodities",
-    href: "/trading-instruments/commodities",
+    href: "/trading-instruments#commodities",
     description:
       "Access energy, agricultural and industrial commodity markets.",
   },

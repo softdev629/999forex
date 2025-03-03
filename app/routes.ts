@@ -8,5 +8,6 @@ export default [
   route("/faqs", "routes/faqs.tsx"),
 
   route("/web-application", "routes/web-application.tsx"),
-  route("/trading-view-charts", "routes/trading-view-charts.tsx"),
+  route("/fxero-api", "routes/fxero-api.tsx"),
+  route("/trading-instruments", "routes/trading-instruments.tsx"),
 ] satisfies RouteConfig;

@@ -13,7 +13,7 @@ const TradingViewCharts = () => {
     <div className="bg-yellow-gradient">
       <section className="py-15">
         <div className="px-5">
-          <div className="md:w-1/2 mx-auto flex flex-col items-center mb-20 md:mb-50">
+          <div className="md:w-1/2 mx-auto flex flex-col items-center mb-20 md:mb-30">
             <h2 className="text-4xl md:text-6xl font-bold text-center">
               Trade the world’s markets
             </h2>
@@ -70,7 +70,7 @@ const TradingViewCharts = () => {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-10 md:gap-0">
+          <div id="crypto" className="flex flex-col md:flex-row gap-10 md:gap-0">
             <div className="md:flex-1 flex flex-col items-center justify-center">
               <div className="md:w-3/4">
                 <h3 className="text-2xl md:text-4xl font-bold">Crypto</h3>
@@ -130,7 +130,7 @@ const TradingViewCharts = () => {
             </div>
           </div>
 
-          <div className="flex flex-col-reverse md:flex-row mt-10">
+          <div id="stocks" className="flex flex-col-reverse md:flex-row mt-10">
             <div className="md:flex-1">
               <img
                 src={BgTrading3}
@@ -176,7 +176,7 @@ const TradingViewCharts = () => {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-10 md:gap-0">
+          <div id="metals" className="flex flex-col md:flex-row gap-10 md:gap-0">
             <div className="md:flex-1 flex items-center justify-center">
               <div className="md:w-3/4">
                 <h3 className="text-2xl md:text-4xl font-bold">Metals</h3>
@@ -228,7 +228,7 @@ const TradingViewCharts = () => {
             </div>
           </div>
 
-          <div className="flex flex-col-reverse md:flex-row mt-15 md:mt-40">
+          <div id="stock-cfds" className="flex flex-col-reverse md:flex-row mt-15 md:mt-40">
             <div className="md:flex-1">
               <img
                 src={BgTrading5}
@@ -278,7 +278,7 @@ const TradingViewCharts = () => {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row gap-10 md:gap-0">
+          <div id="commodities" className="flex flex-col md:flex-row gap-10 md:gap-0">
             <div className="md:flex-1 flex items-center justify-center">
               <div className="md:w-3/4">
                 <h3 className="text-2xl md:text-4xl font-bold">Commodities</h3>
