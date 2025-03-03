@@ -270,7 +270,7 @@ const aboutUsLinks = [
 const productsLinks = [
   {
     title: "Web Application",
-    href: "/products/web-application",
+    href: "/web-application",
     description:
       "Access advanced trading features through our intuitive web platform.",
   },
@@ -282,7 +282,7 @@ const productsLinks = [
   },
   {
     title: "Trading View Charts",
-    href: "/products/trading-view-charts",
+    href: "/trading-view-charts",
     description:
       "Advanced technical analysis with professional-grade charting tools.",
   },

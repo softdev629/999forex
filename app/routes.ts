@@ -6,4 +6,7 @@ export default [
   route("/awards", "routes/awards.tsx"),
   route("/contact-us", "routes/contact-us.tsx"),
   route("/faqs", "routes/faqs.tsx"),
+
+  route("/web-application", "routes/web-application.tsx"),
+  route("/trading-view-charts", "routes/trading-view-charts.tsx"),
 ] satisfies RouteConfig;
