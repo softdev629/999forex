@@ -14,4 +14,6 @@ export default [
   route("/market-analysis", "routes/market-analysis.tsx"),
 
   route("/login", "routes/login.tsx"),
+  route("/signup", "routes/signup.tsx"),
+  route("/forgot-password", "routes/forgot-password.tsx"),
 ] satisfies RouteConfig;

@@ -121,8 +121,9 @@ const Login = () => {
                     to="/signup"
                     className="text-primary"
                   >
-                    Sign up now!
-                  </Link>
+                    Sign up
+                  </Link>{" "}
+                  now!
                 </div>
               </form>
             </Form>
