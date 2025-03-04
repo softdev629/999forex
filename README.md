@@ -1,22 +1,31 @@
-# Welcome to React Router!
+# 999.forex Trading Platform
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+A modern, high-performance trading platform built with React and TypeScript, offering advanced trading features and real-time market data.
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- 🚀 High-Frequency Trading Support
+- 📊 Real-time Market Data
+- 💱 Multi-Asset Trading (Forex, Crypto, Stocks, Commodities)
+- 📱 Responsive Mobile Design
+- 🔒 Secure Authentication System
+- 📈 Advanced Charting Tools
+- 🤖 API Integration for Automated Trading
+- 🎨 Modern UI with TailwindCSS
+- 🌐 Multi-language Support
+- 📱 Progressive Web App (PWA)
 
-## Getting Started
+## Tech Stack
 
-### Installation
+- **Frontend**: React, TypeScript
+- **Styling**: TailwindCSS
+- **State Management**: React Query
+- **Forms**: React Hook Form, Zod
+- **UI Components**: Radix UI
+- **Charts**: TradingView Integration
+- **Authentication**: JWT
+
+## Installation
 
 Install the dependencies:
 
@@ -91,10 +100,22 @@ Make sure to deploy the output of `npm run build`
 │   └── server/    # Server-side code
 ```
 
-## Styling
+## Contributing
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Security
+
+For security concerns, please email security@999.forex
 
 ---
 
-Built with ❤️ using React Router.
+Built with ❤️ by the 999.forex team.
