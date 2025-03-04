@@ -143,7 +143,7 @@ const FxeroInvest = () => {
               </p>
               <div className="flex gap-5 mt-15 justify-center">
                 <Link
-                  to="/signin"
+                  to="/login"
                   className="bg-red-radial text-white w-45 py-5 flex justify-center items-center rounded-lg"
                 >
                   Sign in

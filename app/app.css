@@ -25,11 +25,11 @@ body {
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: #FFB700;
+  --primary: #ffb700;
   --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: #312D3E;
+  --secondary: #312d3e;
   --secondary-foreground: oklch(0.208 0.042 265.755);
-  --muted: #312D3E;
+  --muted: #312d3e;
   --muted-foreground: oklch(0.554 0.046 257.417);
   --accent: oklch(0.968 0.007 247.896);
   --accent-foreground: oklch(0.208 0.042 265.755);
@@ -137,7 +137,8 @@ body {
     @apply bg-background text-foreground;
   }
 
-  h2, h3 {
+  h2,
+  h3 {
     @apply text-4xl font-bold bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent;
   }
 
@@ -149,8 +150,16 @@ body {
     @apply bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)] bg-clip-text text-transparent;
   }
 
+  .text-red-gradient-200 {
+    @apply bg-[linear-gradient(180deg,_#FC3700_0%,_#B32700_0.01%,_#801C00_100%)] bg-clip-text text-transparent;
+  }
+
   .bg-red-gradient {
     @apply bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)];
+  }
+
+  .bg-red-gradient-200 {
+    @apply bg-[linear-gradient(180deg,_#FC3700_0%,_#B32700_0.01%,_#801C00_100%)];
   }
 
   .bg-red-radial {
@@ -179,5 +188,9 @@ body {
 
   section > div {
     @apply max-w-[1500px] mx-auto;
+  }
+
+  .bg-blue-gradient {
+    @apply bg-[linear-gradient(180deg,_#0063CC_0%,_#203D9A_45%,_#391E72_100%)];
   }
 }

@@ -11,4 +11,7 @@ export default [
   route("/fxero-api", "routes/fxero-api.tsx"),
   route("/trading-instruments", "routes/trading-instruments.tsx"),
   route("/fxero-invest", "routes/fxero-invest.tsx"),
+  route("/market-analysis", "routes/market-analysis.tsx"),
+
+  route("/login", "routes/login.tsx"),
 ] satisfies RouteConfig;

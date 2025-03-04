@@ -8,6 +8,8 @@ import {
   AccordionTrigger,
 } from "~/components/ui/accordion";
 
+import { cn } from "~/lib/utils";
+
 const faqList = [
   {
     title: "Getting Started",
@@ -191,9 +193,37 @@ const Faqs = () => {
                 </h4>
                 <Accordion type="single" collapsible className="md:w-3/4">
                   {faq.items.map((item) => (
-                    <AccordionItem key={item.question} value={item.question}>
-                      <AccordionTrigger>{item.question}</AccordionTrigger>
-                      <AccordionContent>{item.answer}</AccordionContent>
+                    <AccordionItem
+                      className={cn(
+                        "border border-black rounded-lg px-4 mb-2 last:border-1",
+                        "data-[state=open]:bg-[linear-gradient(180deg,_#970020_0%,_#4A010F_100%)]",
+                        "data-[state=closed]:bg-red-radial"
+                      )}
+                      key={item.question}
+                      value={item.question}
+                    >
+                      <AccordionTrigger
+                        className={cn(
+                          "flex flex-1 items-start justify-between gap-4 py-4 text-left text-base font-medium transition-all outline-none",
+                          "hover:underline",
+                          "focus-visible:ring-[3px] focus-visible:border-ring focus-visible:ring-ring/50",
+                          "disabled:pointer-events-none disabled:opacity-50",
+                          "[&[data-state=open]>svg]:rotate-180",
+                          "text-black",
+                          "data-[state=open]:text-[#FECB19]"
+                        )}
+                      >
+                        {item.question}
+                      </AccordionTrigger>
+                      <AccordionContent
+                        className={cn(
+                          "overflow-hidden text-sm text-white",
+                          "data-[state=closed]:animate-accordion-up",
+                          "data-[state=open]:animate-accordion-down",
+                        )}
+                      >
+                        {item.answer}
+                      </AccordionContent>
                     </AccordionItem>
                   ))}
                 </Accordion>
