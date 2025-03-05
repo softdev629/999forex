@@ -12,7 +12,7 @@ const FxeroApi = () => {
         <div className="py-15 md:py-35 px-5">
           <div className="md:w-1/2 mx-auto">
             <h2 className="text-4xl md:text-6xl font-bold text-center">
-              FXERO API
+              999.forex API
             </h2>
             <p className="text-base md:text-xl mt-5 text-center">
               We offer access through our API to a wide range of asset classes,

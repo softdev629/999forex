@@ -42,10 +42,10 @@ const Footer = () => {
             <h4 className="text-white font-bold mb-6 sm:mb-10">Trading Platforms</h4>
             <ul className="space-y-3 sm:space-y-4 text-white/60 text-sm sm:text-base">
               <li>Web platform</li>
-              <li>Fxero API</li>
+              <li>999.forex API</li>
               <li>TV charts</li>
-              <li>MT4 to Fxero API</li>
-              <li>MT5 to Fxero API</li>
+              <li>MT4 to 999.forex API</li>
+              <li>MT5 to 999.forex API</li>
             </ul>
           </div>
 
@@ -75,9 +75,9 @@ const Footer = () => {
         {/* Footer text sections */}
         <div className="space-y-6 sm:space-y-10 mt-8 sm:mt-10 text-sm sm:text-base">
           <p className="text-white/60 text-xs sm:text-base">
-            FXERO brings intelligent, driven, and curious minds from the trading
+            999.forex brings intelligent, driven, and curious minds from the trading
             industry together to collaborate and solve quantitative finance and
-            technical problems. FXERO brings best trading experience for traders.
+            technical problems. 999.forex brings best trading experience for traders.
           </p>
 
           <p className="text-white/60 text-xs sm:text-base">
@@ -91,12 +91,12 @@ const Footer = () => {
             less than you originally put in. Past performance is no guarantee of
             future results. Before trading, please take into consideration your
             level of experience, investment objectives and seek independent
-            financial advice if necessary. Please read FXERO's full Risk
+            financial advice if necessary. Please read 999.forex's full Risk
             Disclosure.
           </p>
 
           <p className="text-white/60 text-xs sm:text-base">
-            FXERO Ltd does not direct its website and services to any individual
+            999.forex Ltd does not direct its website and services to any individual
             in any country in which the use of its website and services are
             prohibited by local laws or regulations. When accessing this website
             from a country in which its use may or may not be prohibited, it is
@@ -107,7 +107,7 @@ const Footer = () => {
           </p>
 
           <p className="text-white/60 text-xs sm:text-base">
-            Copyright © 2025 FXERO. All rights reserved.
+            Copyright © 2025 999.forex. All rights reserved.
           </p>
         </div>
       </div>

@@ -368,7 +368,7 @@ const MarketAnalysis = () => {
                       />
                       <p className="text-white text-center mt-2">
                         "Easy to learn forex trading.Best raw spread broker. 0.0
-                        spred is very important for algo trading. FXERO offers
+                        spred is very important for algo trading. 999.forex offers
                         Raw spread and Web application is good"
                         <br />
                         <br />

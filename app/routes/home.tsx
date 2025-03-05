@@ -57,7 +57,7 @@ export default function Home() {
               Enjoy Technology Enjoy Investing.
             </h2>
             <p className="text-gray-gradient max-w-full sm:w-140 lg:w-120 md:w-100 text-lg sm:text-2xl mt-4">
-              Build your HFT strategies with FXERO's free API Raw Spreads From
+              Build your HFT strategies with 999.forex's free API Raw Spreads From
               0.0 pips
             </p>
 
@@ -250,7 +250,7 @@ export default function Home() {
               In-Depth Daily Market Analysis
             </h2>
             <p className="mt-10 text-base md:text-xl">
-              At FXERO, we believe that the best trader is an educated one. We
+              At 999.forex, we believe that the best trader is an educated one. We
               analyse and explain the price movements of the global markets,
               giving traders all the in-depth knowledge they need to make their
               next move.
@@ -276,7 +276,7 @@ export default function Home() {
             <div className="xl:pr-60 px-5 md:pr-20 lg:pr-40">
               <h2 className="text-3xl md:text-5xl font-bold">Super-fast elegant UI</h2>
               <p className="my-10 text-base md:text-xl">
-                FXERO's super-fast flagship trading platform with elegant UI,
+                999.forex's super-fast flagship trading platform with elegant UI,
                 Inbuild strategies, streaming market data, advanced charts.
                 Experience the way of trading.
               </p>
@@ -388,7 +388,7 @@ export default function Home() {
                 <MessageCircle className="w-5 h-5 text-white" />
               </div>
               <div className="flex-1">
-                <h4 className="font-bold">FXERO Raw spread</h4>
+                <h4 className="font-bold">999.forex Raw spread</h4>
                 <p className="text-sm md:text-base">
                   Enjoy spreads as low as 0.0 pips^ with deep <br /> liquidity
                   and no requotes.

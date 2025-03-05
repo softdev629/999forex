@@ -42,7 +42,7 @@ const TradingViewCharts = () => {
                       <BriefcaseBusiness className="w-5 h-5" />
                     </div>
                     <p className="flex-1 text-red-gradient text-base md:text-xl">
-                      FXERO gives you the keys to access the forex market 24
+                      999.forex gives you the keys to access the forex market 24
                       hours a day, 5 days a week, allowing you to trade the most
                       popular major, minor and exotic currency pairs.
                     </p>

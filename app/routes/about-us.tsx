@@ -43,7 +43,7 @@ export default function AboutUs() {
                 World class Trading Platforms
               </h2>
               <p className="mt-4 text-sm md:text-base">
-                FXERO's super-fast flagship trading platform with elegant UI,
+                999.forex's super-fast flagship trading platform with elegant UI,
                 streaming market data, advanced charts
               </p>
               <p className="mt-4 text-sm md:text-base">
@@ -107,9 +107,9 @@ export default function AboutUs() {
         <div className="flex flex-col md:flex-row px-10 gap-10">
           <div className="flex-1">
             <h3 className="text-2xl md:text-3xl text-yellow-gradient font-normal md:pr-25">
-              Join FXERO to experience Raw Spreads From 0.0 pips <br />
+              Join 999.forex to experience Raw Spreads From 0.0 pips <br />
               <br />
-              Build your HFT strategies with FXERO’s free API !
+              Build your HFT strategies with 999.forex's free API !
             </h3>
           </div>
           <div className="flex-1 flex flex-col gap-10 items-center">
@@ -118,7 +118,7 @@ export default function AboutUs() {
                 Raw Spreads From 0.0 pips
               </h4>
               <p className="text-white text-sm md:text-xl mt-2">
-                FXERO mission is to provide traders with the lowest spreads
+                999.forex mission is to provide traders with the lowest spreads
                 possible during all market conditions.
               </p>
             </div>
@@ -136,7 +136,7 @@ export default function AboutUs() {
                 The Ultimate in Trading Conditions
               </h4>
               <p className="text-white text-sm md:text-xl mt-2">
-                FXERO has been created with traders in mind. HFT strategies,
+                999.forex has been created with traders in mind. HFT strategies,
                 Scalping, hedging, and automated trading are all allowed.
               </p>
             </div>
@@ -155,13 +155,13 @@ export default function AboutUs() {
                 Copy Trading with 999.forex Invest
               </h2>
               <p className="text-sm md:text-xl mt-5">
-                FXERO Invest is an innovative way you can access the
+                999.forex Invest is an innovative way you can access the
                 opportunities of trading without any technical skills, and the
-                minimum of time. You simply choose to copy FXERO traders (also
+                minimum of time. You simply choose to copy 999.forex traders (also
                 known as Strategy Managers) who are right for you and make their
                 trading strategies available to follow. We’ll do the rest!
                 <br /> <br />
-                Copy trading with FXERO Invest lets you retain full control of
+                Copy trading with 999.forex Invest lets you retain full control of
                 your money, and you’ll only pay a fee to your Strategy Manager
                 when they make a profitable trade.
               </p>

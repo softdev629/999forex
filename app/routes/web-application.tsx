@@ -23,7 +23,7 @@ const WebApplication = () => {
               World class Trading Platforms
             </h2>
             <p className="text-white text-center text-lg md:text-2xl mt-6">
-              FXERO's super-fast flagship trading platform with elegant UI,
+              999.forex's super-fast flagship trading platform with elegant UI,
               streaming market data, advanced charts
             </p>
             <Link
@@ -47,7 +47,7 @@ const WebApplication = () => {
               Amazing Features
             </h3>
             <p className="text-base md:text-xl text-center mt-2">
-              FXERO has been created with traders in mind.
+              999.forex has been created with traders in mind.
             </p>
             <div className="flex flex-col md:flex-row justify-between mt-10 gap-15 md:gap-44">
               <div className="md:flex-1 bg-red-radial h-80 flex flex-col pt-20 items-center rounded-lg px-5">
@@ -94,7 +94,7 @@ const WebApplication = () => {
               <div className="md:w-3/4">
                 <h3 className="text-3xl md:text-5xl">Super-fast elegant UI</h3>
                 <p className="text-base md:text-xl mt-10">
-                  FXERO's super-fast flagship trading platform with elegant UI,
+                  999.forex's super-fast flagship trading platform with elegant UI,
                   Inbuild strategies, streaming market data, advanced charts.
                   Experience the way of trading.
                 </p>

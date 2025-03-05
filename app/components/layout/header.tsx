@@ -113,7 +113,7 @@ const Header = () => {
                 to="/fxero-invest"
                 className={`${navigationMenuTriggerStyle()} bg-transparent hover:bg-white/10 focus:bg-white/10 text-white`}
               >
-                FXERO Invest
+                999.forex Invest
               </Link>
             </NavigationMenuItem>
 
@@ -151,7 +151,7 @@ const Header = () => {
           <SheetTrigger className="lg:hidden p-2">
             <Menu className="h-6 w-6 text-white" />
           </SheetTrigger>
-          <SheetContent side="right" className="w-[300px] bg-secondary p-0">
+          <SheetContent side="right" className="w-[300px] bg-secondary p-0 overflow-auto">
             <SheetTitle className="text-white"></SheetTitle> 
             <SheetDescription></SheetDescription>
             <div className="flex flex-col space-y-4 p-4">
@@ -206,7 +206,7 @@ const Header = () => {
                 className="block text-lg font-bold text-white hover:text-gray-200"
                 onClick={() => setIsOpen(false)}
               >
-                FXERO Invest
+                999.forex Invest
               </Link>
               <Link
                 to="/market-analysis"
@@ -241,9 +241,9 @@ const Header = () => {
 
 const aboutUsLinks = [
   {
-    title: "Why FXERO",
+    title: "Why 999.forex",
     href: "/about-us",
-    description: "Why FXERO is the best choice for your business.",
+    description: "Why 999.forex is the best choice for your business.",
   },
   {
     title: "Awards",
@@ -287,18 +287,18 @@ const productsLinks = [
       "Advanced technical analysis with professional-grade charting tools.",
   },
   {
-    title: "MT4 to Fxero API",
+    title: "MT4 to 999.forex API",
     href: "/fxero-api",
     description:
       "Seamlessly connect MetaTrader 4 to our advanced trading infrastructure.",
   },
   {
-    title: "MT5 to Fxero API",
+    title: "MT5 to 999.forex API",
     href: "/fxero-api",
     description: "Integrate MetaTrader 5 with our robust trading ecosystem.",
   },
   {
-    title: "FXERO API",
+    title: "999.forex API",
     href: "/fxero-api",
     description:
       "Build custom trading solutions with our comprehensive REST API.",

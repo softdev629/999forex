@@ -12,7 +12,7 @@ const Awards = () => {
               999.forex’s Global Awards
             </h2>
             <p className="text-sm md:text-xl mt-8">
-              Since FXERO’s inception, the brand has been widely recognised for
+              Since 999.forex’s inception, the brand has been widely recognised for
               industry innovation, delivers ultra-low latency execution, high
               capacity and robust, consistent exchange performance.
               <br />
@@ -35,7 +35,7 @@ const Awards = () => {
             </div>
             <div className="pr-0 md:pr-10">
               <p className="md:text-xl">
-                FXERO's Best Trading Platform and best execution awards. We are
+                999.forex's Best Trading Platform and best execution awards. We are
                 honored by every accolade we receive, while our dedication to
                 our clients and partners grows stronger with every new award
               </p>
@@ -88,7 +88,7 @@ const Awards = () => {
               Integrated with your favorite tools.
             </h2>
             <p className="text-sm md:text-xl mt-8">
-              with FXERO’s Build your HFT strategies
+              with 999.forex’s Build your HFT strategies
             </p>
             <Link
               to="/signup"

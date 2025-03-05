@@ -17,13 +17,13 @@ const FxeroInvest = () => {
               you’re not feeling up to it yourself, we have the perfect
               solution.
               <br /> <br />
-              FXERO Invest is an innovative way you can access the opportunities
+              999.forex Invest is an innovative way you can access the opportunities
               of trading without any technical skills, and the minimum of time.
-              You simply choose to copy FXERO traders (also known as Strategy
+              You simply choose to copy 999.forex traders (also known as Strategy
               Managers) who are right for you and make their trading strategies
               available to follow. We’ll do the rest!
               <br /> <br />
-              Copy trading with FXERO Invest lets you retain full control of
+              Copy trading with 999.forex Invest lets you retain full control of
               your money, and you’ll only pay a fee to your Strategy Manager
               when they make a profitable trade.
             </p>
@@ -139,7 +139,7 @@ const FxeroInvest = () => {
                 Integrated with your favorite tools.
               </h3>
               <p className="text-center text-lg md:text-2xl font-medium mt-5">
-                with FXERO’s Build your HFT strategies
+                with 999.forex’s Build your HFT strategies
               </p>
               <div className="flex gap-5 mt-15 justify-center">
                 <Link
