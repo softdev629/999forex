@@ -62,7 +62,7 @@ export default function Home() {
             </p>
 
             <div className="flex flex-wrap gap-3 mt-10">
-              <img
+              {/* <img
                 src={LinkGooglePlay}
                 alt="Link Google Play"
                 className="h-12 sm:h-auto"
@@ -76,7 +76,7 @@ export default function Home() {
                 src={AppScanner}
                 alt="App Scanner"
                 className="h-12 sm:h-auto"
-              />
+              /> */}
             </div>
 
             <div className="mt-8 sm:mt-10 pb-10 sm:pb-25 md:pb-10">
@@ -87,7 +87,7 @@ export default function Home() {
                   className="h-12 sm:h-14 pl-4 sm:pl-6 pr-24 sm:pr-32 text-base sm:text-lg bg-white rounded-lg border-0 focus-visible:ring-0 focus-visible:ring-offset-0"
                 />
                 <Link
-                  to="/signup"
+                  to="https://trade.999.forex/register/"
                   className="absolute right-2 top-1/2 -translate-y-1/2 bg-gray-gradient text-white cursor-pointer rounded-xl border-none px-3 sm:px-4 py-2 text-xs sm:text-sm"
                 >
                   Sign Up
@@ -194,13 +194,13 @@ export default function Home() {
               </ul>
               <div className="flex flex-col sm:flex-row gap-3 mt-6">
                 <Link
-                  to="/signup"
+                  to="https://trade.999.forex/register/"
                   className="bg-red-gradient text-white flex-1 border-none px-4 py-2 text-sm text-center rounded"
                 >
                   Open an Account
                 </Link>
                 <Link
-                  to="/signup"
+                  to="https://trade.999.forex/register/"
                   className="flex-1 border-2 border-solid [border-image:linear-gradient(180deg,_#970020_0%,_#4A010F_100%)_1] text-red-gradient rounded-xl px-4 py-2 text-sm text-center"
                 >
                   Open Free Demo Account
@@ -359,7 +359,7 @@ export default function Home() {
               </div>
 
               <Link
-                to="/signup"
+                to="https://trade.999.forex/register/"
                 className="bg-red-gradient px-9 py-5 rounded text-white text-sm inline-block mb-10"
               >
                 TRY FOR FREE

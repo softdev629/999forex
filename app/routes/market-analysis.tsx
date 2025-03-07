@@ -171,7 +171,7 @@ const MarketAnalysis = () => {
                 className="h-12 sm:h-14 pl-4 sm:pl-6 pr-24 sm:pr-32 text-base sm:text-lg bg-white rounded-lg border-0 focus-visible:ring-0 focus-visible:ring-offset-0 text-black"
               />
               <Link
-                to="/signup"
+                to="https://trade.999.forex/register/"
                 className="absolute right-2 top-1/2 -translate-y-1/2 bg-[linear-gradient(180deg,rgba(165,0,162,0.64)_0%,rgba(42,0,105,0.64)_100%)] text-white cursor-pointer rounded-xl border-none px-3 sm:px-4 py-2 text-xs sm:text-sm"
               >
                 Subscribe
@@ -230,7 +230,7 @@ const MarketAnalysis = () => {
             ))}
           </div>
           <Link
-            to="/signup"
+            to="https://trade.999.forex/register/"
             className="text-white bg-[linear-gradient(180deg,_#FC3700_0%,_#B32700_0.01%,_#801C00_100%)] rounded-full px-10 py-5 block mt-15 mx-auto w-fit"
           >
             Explore All Lessons
@@ -287,7 +287,7 @@ const MarketAnalysis = () => {
                   </div>
                 </div>
                 <Link
-                  to="/signup"
+                  to="https://trade.999.forex/register/"
                   className="bg-red-radial px-9 py-5 rounded-full text-white text-sm inline-block mb-10 mt-10"
                 >
                   Get Started
@@ -561,7 +561,7 @@ const MarketAnalysis = () => {
               10K+ Students take this course. What are you waiting for?
             </h4>
             <Link
-              to="/signup"
+              to="https://trade.999.forex/register/"
               className="text-white rounded-full w-fit p-6 font-bold block bg-red-radial h-fit"
             >
               Get Started Now

@@ -16,29 +16,29 @@ const faqList = [
     id: "getting-started",
     items: [
       {
-        question: "How can i register with FXERO?",
+        question: "How can i register with 999.forex?",
         answer:
-          "Follow this link https://fxero.com/register/ Enter your information. Click ‘Send OTP’ to receive the access code by Email. Enter the OTP in the relevant field. Click ‘Register Now.’",
+          "Follow this link https://999.forex.com/register/ Enter your information. Click ‘Send OTP’ to receive the access code by Email. Enter the OTP in the relevant field. Click ‘Register Now.’",
       },
       {
-        question: "Where can I find my FXERO login details?",
+        question: "Where can I find my 999.forex login details?",
         answer:
-          "You can find your FXERO login details on the email you used to register with us.",
+          "You can find your 999.forex login details on the email you used to register with us.",
       },
       {
-        question: "How can I reset my FXERO password?",
+        question: "How can I reset my 999.forex password?",
         answer:
-          "You can reset your FXERO password by clicking on the ‘Forgot Password’ link on the login page. Enter your email address and click ‘Send OTP’ to receive the access code by Email. Enter the OTP in the relevant field. Click ‘Reset Password’.",
+          "You can reset your 999.forex password by clicking on the ‘Forgot Password’ link on the login page. Enter your email address and click ‘Send OTP’ to receive the access code by Email. Enter the OTP in the relevant field. Click ‘Reset Password’.",
       },
       {
-        question: "How can I change my FXERO password?",
+        question: "How can I change my 999.forex password?",
         answer:
-          "You can change your FXERO password by clicking on the ‘Change Password’ link on the login page. Enter your new password and click ‘Change Password’.",
+          "You can change your 999.forex password by clicking on the ‘Change Password’ link on the login page. Enter your new password and click ‘Change Password’.",
       },
       {
-        question: "How do I become a FXERO verified client?",
+        question: "How do I become a 999.forex verified client?",
         answer:
-          "You can become a FXERO verified client by clicking on the ‘Verify Account’ link on the login page. Enter your email address and click ‘Send OTP’ to receive the access code by Email. Enter the OTP in the relevant field. Click ‘Verify Account’.",
+          "You can become a 999.forex verified client by clicking on the ‘Verify Account’ link on the login page. Enter your email address and click ‘Send OTP’ to receive the access code by Email. Enter the OTP in the relevant field. Click ‘Verify Account’.",
       },
     ],
   },
@@ -58,14 +58,14 @@ const faqList = [
           "You can find the status of your deposit/withdrawal/internal transfer by clicking on the ‘Deposit’ link on the login page. Enter the amount you wish to deposit and click ‘Deposit’.",
       },
       {
-        question: "How can I deposit funds into my FXERO account?",
+        question: "How can I deposit funds into my 999.forex account?",
         answer:
-          "You can deposit funds into your FXERO account by clicking on the ‘Deposit’ link on the login page. Enter the amount you wish to deposit and click ‘Deposit’.",
+          "You can deposit funds into your 999.forex account by clicking on the ‘Deposit’ link on the login page. Enter the amount you wish to deposit and click ‘Deposit’.",
       },
       {
-        question: "How can I withdraw funds from my FXERO account?",
+        question: "How can I withdraw funds from my 999.forex account?",
         answer:
-          "You can withdraw funds from your FXERO account by clicking on the ‘Withdraw’ link on the login page. Enter the amount you wish to withdraw and click ‘Withdraw’.",
+          "You can withdraw funds from your 999.forex account by clicking on the ‘Withdraw’ link on the login page. Enter the amount you wish to withdraw and click ‘Withdraw’.",
       },
     ],
   },
@@ -76,23 +76,23 @@ const faqList = [
       {
         question: "What instruments are available?",
         answer:
-          "We offer a variety of trading instruments. You can trade with FXERO by clicking on the ‘Trade’ link on the login page. Enter the amount you wish to trade and click ‘Trade’.",
+          "We offer a variety of trading instruments. You can trade with 999.forex by clicking on the ‘Trade’ link on the login page. Enter the amount you wish to trade and click ‘Trade’.",
       },
       {
         question: "What trading platforms are available?",
         answer:
-          "We offer a variety of trading platforms. You can trade with FXERO by clicking on the ‘Trade’ link on the login page. Enter the amount you wish to trade and click ‘Trade’.",
+          "We offer a variety of trading platforms. You can trade with 999.forex by clicking on the ‘Trade’ link on the login page. Enter the amount you wish to trade and click ‘Trade’.",
       },
     ],
   },
   {
-    title: "FXERO Invest",
-    id: "fxero-invest",
+    title: "999.forex Invest",
+    id: "999.forex-invest",
     items: [
       {
-        question: "What is FXERO Invest?",
+        question: "What is 999.forex Invest?",
         answer:
-          "FXERO Invest is a platform that allows you to invest in a variety of instruments. You can invest in a variety of instruments by clicking on the ‘Invest’ link on the login page. Enter the amount you wish to invest and click ‘Invest’.",
+          "999.forex Invest is a platform that allows you to invest in a variety of instruments. You can invest in a variety of instruments by clicking on the ‘Invest’ link on the login page. Enter the amount you wish to invest and click ‘Invest’.",
       },
       {
         question: "How can I start investing in a Strategy Manager?",
@@ -113,7 +113,7 @@ const faqList = [
       {
         question: "What Partnership Programmes are offered?",
         answer:
-          "We offer a variety of partnership programmes. You can become a FXERO partner by clicking on the ‘Partner’ link on the login page. Enter the amount you wish to invest and click ‘Partner’.",
+          "We offer a variety of partnership programmes. You can become a 999.forex partner by clicking on the ‘Partner’ link on the login page. Enter the amount you wish to invest and click ‘Partner’.",
       },
       {
         question: "How can i join your Partnership Programmes?",
@@ -123,7 +123,7 @@ const faqList = [
       {
         question: "What is a referral link?",
         answer:
-          "A referral link is a link that allows you to refer a friend to FXERO. You can share your referral link with your friends and earn a commission when they sign up.",
+          "A referral link is a link that allows you to refer a friend to 999.forex. You can share your referral link with your friends and earn a commission when they sign up.",
       },
       {
         question: "Can I track my referrals?",
@@ -169,8 +169,8 @@ const Faqs = () => {
               <Link to="/faqs#trading" className="text-gray-gradient">
                 Trading
               </Link>
-              <Link to="/faqs#fxero-invest" className="text-gray-gradient">
-                FXERO Invest
+              <Link to="/faqs#999.forex-invest" className="text-gray-gradient">
+                999.forex Invest
               </Link>
               <Link
                 to="/faqs#partnership-programs"

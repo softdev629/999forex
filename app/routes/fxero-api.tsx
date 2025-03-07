@@ -19,7 +19,7 @@ const FxeroApi = () => {
               including Forex, Crypto, Metals, Stocks etc.
             </p>
             <Link
-              to="/signup"
+              to="https://trade.999.forex/register/"
               className="rounded-lg bg-red-radial text-white px-10 py-5 text-center block w-fit mx-auto mt-10"
             >
               Open Account
@@ -77,7 +77,7 @@ const FxeroApi = () => {
                 </div>
               </div>
               <Link
-                to="/signup"
+                to="https://trade.999.forex/register/"
                 className="bg-red-radial px-9 py-5 rounded-full text-yellow-400 text-sm inline-block mb-10 mt-10"
               >
                 Get Started
@@ -93,7 +93,7 @@ const FxeroApi = () => {
             <div className="md:w-3/4">
               <h3 className="text-2xl md:text-4xl font-bold">Documentation</h3>
               <p className="text-base md:text-xl mt-6">
-                base url: https://fxero.com/trade/? <br />
+                base url: https://999.forex.com/trade/? <br />
                 order type (limit or market)------ type=market <br />
                 buy or sell---------------------- &bs=buy <br />
                 lot size------------------------- &lot=0.1 <br />
@@ -106,7 +106,7 @@ const FxeroApi = () => {
               <p style={{ overflowWrap: "anywhere" }} className="my-15">
                 <span className="text-red-gradient">Final URL</span>
                 <br />
-                https://fxero.com/trade/?
+                https://999.forex.com/trade/?
                 type=market&bs=buy&lot=0.1&sl=111&target=222222&symbol=X:BTCUSD&
                 token=XXXXXXX
               </p>

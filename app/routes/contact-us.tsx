@@ -20,7 +20,7 @@ const ContactUs = () => {
                 Help & support
               </h5>
               <p className="text-sm md:text-lg text-yellow-gradient">
-                Email: <span className="font-bold">support@fxero.com</span>
+                Email: <span className="font-bold">support@999.forex.com</span>
                 <br />
                 for help with a trading or service or API to FAQs and developer
                 tools
@@ -40,15 +40,15 @@ const ContactUs = () => {
             </div>
 
             <div className="flex flex-col gap-8">
-              <div className="bg-yellow-gradient rounded-lg w-20 h-20 flex items-center justify-center">
+              <a href="https://t.me/triple9forex" className="bg-yellow-gradient rounded-lg w-20 h-20 flex items-center justify-center">
                 <Send className="w-9 h-9" />
-              </div>
+              </a>
               <h5 className="text-lg text-yellow-gradient font-bold">
-              Partner
+                Partner
               </h5>
               <p className="text-sm md:text-lg text-yellow-gradient">
                 Get in touch with our partner team. <br />
-                <span className="font-bold">support@fxero.com</span>
+                <span className="font-bold">support@999.forex.com</span>
               </p>
             </div>
           </div>

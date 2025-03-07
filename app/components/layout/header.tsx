@@ -137,7 +137,7 @@ const Header = () => {
 
             <NavigationMenuItem>
               <Link
-                to="/login"
+                to="https://trade.999.forex/login/"
                 className="px-6 py-2 text-sm text-white font-medium bg-gradient-to-b from-[#970020] to-[#4A010F] border-3 rounded-full border-[#FEDC4B] hover:opacity-80 transition-opacity"
               >
                 Login

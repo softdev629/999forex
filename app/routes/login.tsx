@@ -118,7 +118,7 @@ const Login = () => {
                 <div className="text-center text-white">
                   Don't have an account?{" "}
                   <Link
-                    to="/signup"
+                    to="https://trade.999.forex/register/"
                     className="text-primary"
                   >
                     Sign up

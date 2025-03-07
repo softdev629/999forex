@@ -47,7 +47,7 @@ export default function AboutUs() {
                 streaming market data, advanced charts
               </p>
               <p className="mt-4 text-sm md:text-base">
-                Trade from Python, MetaTrader 4, MetaTrader 5, Trading view
+                Trade from Python, Trading view
                 using our free API
               </p>
             </div>
@@ -90,7 +90,7 @@ export default function AboutUs() {
               </div>
 
               <Link
-                to="/signup"
+                to="https://trade.999.forex/register/"
                 className="bg-red-gradient px-9 py-5 rounded text-white text-sm inline-block mb-10"
               >
                 TRY FOR FREE

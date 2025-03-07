@@ -58,7 +58,7 @@ const WebApplication = () => {
                   Easy Integration
                 </h6>
                 <p className="text-center text-yellow-gradient mt-5 text-xs md:text-base">
-                  Trade from Python, MetaTrader 4, MetaTrader 5, Trading view
+                  Trade from Python, Trading view
                   using our free API
                 </p>
               </div>
@@ -167,7 +167,7 @@ const WebApplication = () => {
                 </div>
 
                 <Link
-                  to="/signup"
+                  to="https://trade.999.forex/register/"
                   className="bg-red-radial px-9 py-5 rounded text-white text-sm inline-block mb-10"
                 >
                   TRY FOR FREE

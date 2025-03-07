@@ -102,8 +102,8 @@ const Footer = () => {
               <li>Web platform</li>
               <li>999.forex API</li>
               <li>TV charts</li>
-              <li>MT4 to 999.forex API</li>
-              <li>MT5 to 999.forex API</li>
+              <li>999.forex API</li>
+              <li>999.forex API</li>
             </ul>
           </div>
 
