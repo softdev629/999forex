@@ -59,7 +59,7 @@ const FxeroApi = () => {
                       BUY order post
                     </span>
                     <br />
-                    https://fxero.com/trade/?
+                    https://999.forex/trade/?
                     type=market&bs=buy&lot=0.1&sl=111&target=222222&symbol=X:BTCUSD&
                     token=XXXXXXXX
                   </p>
@@ -78,7 +78,7 @@ const FxeroApi = () => {
                       SELL order post
                     </span>
                     <br />
-                    https://fxero.com/trade/?
+                    https://999.forex/trade/?
                     type=market&bs=buy&lot=0.1&sl=111&target=222222&symbol=X:BTCUSD&
                     token=XXXXXXXXX
                   </p>
