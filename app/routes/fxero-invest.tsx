@@ -1,6 +1,15 @@
 import { Link } from "react-router";
 import BgInvest1 from "~/assets/images/bg-invest-1.png";
 
+import type { Route } from "./+types/home";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "999.forex Invest" },
+    { name: "description", content: "999.forex is a leading online trading platform that offers a wide range of financial instruments for traders to trade and invest in." },
+  ];
+}
+
 const FxeroInvest = () => {
   return (
     <div className="bg-yellow-gradient">

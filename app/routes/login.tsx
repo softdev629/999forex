@@ -13,6 +13,14 @@ import { Input } from "~/components/ui/input";
 import { Link } from "react-router";
 import { Checkbox } from "~/components/ui/checkbox";
 import { Button } from "~/components/ui/button";
+import type { Route } from "./+types/home";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Login" },
+    { name: "description", content: "999.forex is a leading online trading platform that offers a wide range of financial instruments for traders to trade and invest in." },
+  ];
+}
 
 const formSchema = z.object({
   email: z.string().email(),

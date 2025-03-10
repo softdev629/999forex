@@ -12,6 +12,14 @@ import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useState } from "react";
+import type { Route } from "./+types/home";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Forgot Password" },
+    { name: "description", content: "999.forex is a leading online trading platform that offers a wide range of financial instruments for traders to trade and invest in." },
+  ];
+}
 
 const formSchema = z.object({
   email: z.string().email(),

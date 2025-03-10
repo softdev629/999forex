@@ -252,7 +252,7 @@ const aboutUsLinks = [
   },
   {
     title: "News and Events",
-    href: "/about/news-and-events",
+    href: "/awards",
     description: "Stay up to date with the latest news and events.",
   },
   {

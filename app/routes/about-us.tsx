@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import type { Route } from "./+types/home";
 
 import MultiAssets from "~/assets/images/multi-assets.png";
 import Conference from "~/assets/images/conference.png";
@@ -7,6 +8,13 @@ import AccountUI from "~/assets/images/account-ui.png";
 
 import { Zap } from "lucide-react";
 import { Layers } from "lucide-react";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "About Us" },
+    { name: "description", content: "999.forex is a leading online trading platform that offers a wide range of financial instruments for traders to trade and invest in." },
+  ];
+}
 
 export default function AboutUs() {
   return (

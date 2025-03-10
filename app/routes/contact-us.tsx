@@ -1,4 +1,16 @@
 import { Headphones, Phone, Send } from "lucide-react";
+import type { Route } from "./+types/home";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Contact Us" },
+    {
+      name: "description",
+      content:
+        "999.forex is a leading online trading platform that offers a wide range of financial instruments for traders to trade and invest in.",
+    },
+  ];
+}
 
 const ContactUs = () => {
   return (
@@ -20,7 +32,7 @@ const ContactUs = () => {
                 Help & support
               </h5>
               <p className="text-sm md:text-lg text-yellow-gradient">
-                Email: <span className="font-bold">support@999.forex.com</span>
+                Email: <span className="font-bold">admin@999.forex</span>
                 <br />
                 for help with a trading or service or API to FAQs and developer
                 tools
@@ -35,12 +47,16 @@ const ContactUs = () => {
                 Help & support
               </h5>
               <p className="text-sm md:text-lg text-yellow-gradient">
-                10a Hart Street, Henley-On-Thames, England, RG9 2AU
+                REGISTERED OFFICE: 2nd Floor College House 17 King Edwards Road,
+                RUISLIP, London, HA4 7AE UNITED KINGDOM
               </p>
             </div>
 
             <div className="flex flex-col gap-8">
-              <a href="https://t.me/triple9forex" className="bg-yellow-gradient rounded-lg w-20 h-20 flex items-center justify-center">
+              <a
+                href="https://t.me/triple9forex"
+                className="bg-yellow-gradient rounded-lg w-20 h-20 flex items-center justify-center"
+              >
                 <Send className="w-9 h-9" />
               </a>
               <h5 className="text-lg text-yellow-gradient font-bold">
@@ -48,7 +64,7 @@ const ContactUs = () => {
               </h5>
               <p className="text-sm md:text-lg text-yellow-gradient">
                 Get in touch with our partner team. <br />
-                <span className="font-bold">support@999.forex.com</span>
+                <span className="font-bold">admin@999.forex</span>
               </p>
             </div>
           </div>

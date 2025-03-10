@@ -1,6 +1,14 @@
 import SuperHero1 from "~/assets/images/super-hero-1.png";
 import GraphicsBefore2 from "~/assets/images/bg-graphics-before-2.png";
 import { Link } from "react-router";
+import type { Route } from "./+types/home";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Awards" },
+    { name: "description", content: "999.forex is a leading online trading platform that offers a wide range of financial instruments for traders to trade and invest in." },
+  ];
+}
 
 const Awards = () => {
   return (

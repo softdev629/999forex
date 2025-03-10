@@ -17,7 +17,10 @@ const Footer = () => {
             <div className="text-primary mt-5">
               Follow us on :
               <div className="flex gap-3 mt-3">
-                <a href="https://www.facebook.com/profile.php?id=61567933541451" target="_blank">
+                <a
+                  href="https://www.facebook.com/share/15y5WkHGNH/?mibextid=wwXIfr"
+                  target="_blank"
+                >
                   <svg
                     width="11"
                     height="19"
@@ -49,7 +52,10 @@ const Footer = () => {
                     />
                   </svg>
                 </a>
-                <a href="https://www.tiktok.com/@999forex?_t=ZS-8uQuYmRUnrd&_r=1" target="_blank">
+                <a
+                  href="https://www.tiktok.com/@999forex?_t=ZS-8uQuYmRUnrd&_r=1"
+                  target="_blank"
+                >
                   <svg
                     width="19"
                     height="19"
@@ -135,6 +141,12 @@ const Footer = () => {
         {/* Footer text sections */}
         <div className="space-y-6 sm:space-y-10 mt-8 sm:mt-10 text-sm sm:text-base">
           <p className="text-white/60 text-xs sm:text-base">
+            999.forex is trading name of 999FOREX LTD. Regulated by financial
+            since 2025, License Companies for England and Wale 16286507 .All
+            rights reserved.
+          </p>
+
+          <p className="text-white/60 text-xs sm:text-base">
             999.forex brings intelligent, driven, and curious minds from the
             trading industry together to collaborate and solve quantitative
             finance and technical problems. 999.forex brings best trading
@@ -165,10 +177,6 @@ const Footer = () => {
             of the website or services adheres to local laws or regulations. Raw
             Trading Ltd does not affirm that the information on its website is
             suitable for all jurisdictions.
-          </p>
-
-          <p className="text-white/60 text-xs sm:text-base">
-            Copyright © 2025 999.forex. All rights reserved.
           </p>
         </div>
       </div>

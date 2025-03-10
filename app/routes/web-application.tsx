@@ -6,6 +6,14 @@ import BgWeb2 from "~/assets/images/bg-web-2.png";
 import BgWeb3 from "~/assets/images/bg-web-3.png";
 import SleekUI from "~/assets/images/sleek-ui.png";
 import SleekUI3 from "~/assets/images/sleek-ui-3.png";
+import type { Route } from "./+types/home";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Web Application" },
+    { name: "description", content: "999.forex is a leading online trading platform that offers a wide range of financial instruments for traders to trade and invest in." },
+  ];
+}
 
 const WebApplication = () => {
   return (

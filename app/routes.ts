@@ -12,6 +12,7 @@ export default [
   route("/trading-instruments", "routes/trading-instruments.tsx"),
   route("/fxero-invest", "routes/fxero-invest.tsx"),
   route("/market-analysis", "routes/market-analysis.tsx"),
+  route("/education", "routes/education.tsx"),
 
   route("/login", "routes/login.tsx"),
   route("/signup", "routes/signup.tsx"),

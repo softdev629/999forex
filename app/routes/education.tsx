@@ -11,6 +11,7 @@ import Testimonial4 from "~/assets/images/testimonial-4.png";
 import Testimonial5 from "~/assets/images/testimonial-5.png";
 import Testimonial6 from "~/assets/images/testimonial-6.png";
 import SuperHero2 from "~/assets/images/super-hero-2.png";
+import type { Route } from "./+types/home";
 
 import { Link } from "react-router";
 import { Input } from "~/components/ui/input";
@@ -53,11 +54,9 @@ import {
   AccordionTrigger,
 } from "~/components/ui/accordion";
 
-import type { Route } from "./+types/home";
-
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Market Analysis" },
+    { title: "Education" },
     { name: "description", content: "999.forex is a leading online trading platform that offers a wide range of financial instruments for traders to trade and invest in." },
   ];
 }
@@ -108,7 +107,7 @@ const rightFaqs = [
   },
 ];
 
-const MarketAnalysis = () => {
+const Education = () => {
   const [analysisCourses, setAnalysisCourses] = useState([
     {
       lesson: "Lesson 01",
@@ -165,7 +164,7 @@ const MarketAnalysis = () => {
             50% off commission rebate for this month
           </div>
           <h2 className="text-white text-3xl md:text-5xl mt-6 text-center md:text-left">
-            In-Depth Daily Market Analysis
+            Learn Trading in a new way
           </h2>
           <p className="text-white text-base md:text-xl mt-6">
             Learn about the many benefits of trading the forex market and
@@ -377,8 +376,8 @@ const MarketAnalysis = () => {
                       />
                       <p className="text-white text-center mt-2">
                         "Easy to learn forex trading.Best raw spread broker. 0.0
-                        spred is very important for algo trading. 999.forex offers
-                        Raw spread and Web application is good"
+                        spred is very important for algo trading. 999.forex
+                        offers Raw spread and Web application is good"
                         <br />
                         <br />
                         <span className="text-[#F7B26D]">- Ann Franks</span>
@@ -582,4 +581,4 @@ const MarketAnalysis = () => {
   );
 };
 
-export default MarketAnalysis;
+export default Education;

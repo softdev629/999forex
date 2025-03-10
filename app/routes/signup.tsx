@@ -14,6 +14,15 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { Checkbox } from "~/components/ui/checkbox";
 
+import type { Route } from "./+types/home";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Signup" },
+    { name: "description", content: "999.forex is a leading online trading platform that offers a wide range of financial instruments for traders to trade and invest in." },
+  ];
+}
+
 const formSchema = z.object({
   name: z.string().min(1),
   email: z.string().email(),

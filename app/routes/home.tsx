@@ -3,9 +3,6 @@ import type { Route } from "./+types/home";
 import HeroImage from "~/assets/images/hero-image.png";
 import TrustPilotStars from "~/assets/images/trustpilot-stars.png";
 import TrustLogoWhite from "~/assets/images/trust-logo-white.png";
-import LinkGooglePlay from "~/assets/images/link-google-play.png";
-import LinkAppStore from "~/assets/images/link-app-store.png";
-import AppScanner from "~/assets/images/app-scanner.png";
 import SuperHero from "~/assets/images/super-hero.png";
 import Hero1 from "~/assets/images/hero-1.png";
 import Hero2 from "~/assets/images/hero-2.png";
@@ -26,8 +23,8 @@ import { Link } from "react-router";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "999.forex" },
+    { name: "description", content: "999.forex is a leading online trading platform that offers a wide range of financial instruments for traders to trade and invest in." },
   ];
 }
 
@@ -57,26 +54,94 @@ export default function Home() {
               Enjoy Technology Enjoy Investing.
             </h2>
             <p className="text-gray-gradient max-w-full sm:w-140 lg:w-120 md:w-100 text-lg sm:text-2xl mt-4">
-              Build your HFT strategies with 999.forex's free API Raw Spreads From
-              0.0 pips
+              Build your HFT strategies with 999.forex's free API Raw Spreads
+              From 0.0 pips
             </p>
 
             <div className="flex flex-wrap gap-3 mt-10">
-              {/* <img
-                src={LinkGooglePlay}
-                alt="Link Google Play"
-                className="h-12 sm:h-auto"
-              />
-              <img
-                src={LinkAppStore}
-                alt="Link App Store"
-                className="h-12 sm:h-auto"
-              />
-              <img
-                src={AppScanner}
-                alt="App Scanner"
-                className="h-12 sm:h-auto"
-              /> */}
+              <Link
+                to="https://t.me/three9forex_bot"
+                className="bg-red-gradient text-white px-20 py-2 flex items-center gap-2 rounded-full"
+              >
+                <svg
+                  width="40"
+                  height="39"
+                  viewBox="0 0 40 39"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <mask
+                    id="mask0_595_799"
+                    style={{ maskType: "luminance" }}
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="40"
+                    height="39"
+                  >
+                    <path d="M0 0H40V38.3548H0V0Z" fill="white" />
+                  </mask>
+                  <g mask="url(#mask0_595_799)">
+                    <mask
+                      id="mask1_595_799"
+                      style={{ maskType: "luminance" }}
+                      maskUnits="userSpaceOnUse"
+                      x="-1"
+                      y="0"
+                      width="41"
+                      height="39"
+                    >
+                      <path
+                        d="M39.998 19.1794C39.998 29.771 31.0433 38.3568 19.998 38.3568C8.95208 38.3568 -0.00195312 29.771 -0.00195312 19.1794C-0.00195312 8.58841 8.95208 0.00195312 19.998 0.00195312C31.0433 0.00195312 39.998 8.58841 39.998 19.1794Z"
+                        fill="white"
+                      />
+                    </mask>
+                    <g mask="url(#mask1_595_799)">
+                      <mask
+                        id="mask2_595_799"
+                        style={{ maskType: "luminance" }}
+                        maskUnits="userSpaceOnUse"
+                        x="-1"
+                        y="0"
+                        width="41"
+                        height="39"
+                      >
+                        <path
+                          d="M39.998 19.1852C39.998 29.7769 31.0433 38.3627 19.998 38.3627C8.95208 38.3627 -0.00195312 29.7769 -0.00195312 19.1852C-0.00195312 8.59427 8.95208 0.0078125 19.998 0.0078125C31.0433 0.0078125 39.998 8.59427 39.998 19.1852Z"
+                          fill="white"
+                        />
+                      </mask>
+                      <g mask="url(#mask2_595_799)">
+                        <mask
+                          id="mask3_595_799"
+                          style={{ maskType: "luminance" }}
+                          maskUnits="userSpaceOnUse"
+                          x="-20"
+                          y="-20"
+                          width="80"
+                          height="78"
+                        >
+                          <path
+                            d="M20 -19.1738L-20 19.181L20 57.5359L60 19.181L20 -19.1738Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask3_595_799)">
+                          <path
+                            d="M20 -19.1738L-20 19.181L20 57.5359L60 19.181L20 -19.1738Z"
+                            fill="#FFB604"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                  <path
+                    d="M28.6231 10.7549C28.5472 10.7549 28.4691 10.7679 28.3911 10.7968L8.26223 18.1304C7.69308 18.337 7.70811 19.1134 8.28514 19.3001L12.9515 20.8125L15.7658 26.213C15.7665 26.215 15.7672 26.2157 15.768 26.2178L15.7758 26.2322L15.778 26.2315C15.8288 26.331 15.9348 26.3949 16.0479 26.3949C16.1145 26.3949 16.1825 26.3736 16.2419 26.3262L18.8779 24.1824L15.9341 22.0399L16.1653 24.8537L14.049 20.6525L25.2962 14.1742L15.9341 22.0399L23.2221 27.3429C23.4663 27.5207 23.7462 27.6024 24.0204 27.6024C24.5981 27.6024 25.1537 27.2393 25.3105 26.6386L29.2502 11.5285C29.3569 11.1187 29.0233 10.7549 28.6231 10.7549Z"
+                    fill="#5A0112"
+                  />
+                </svg>
+                Join us
+              </Link>
             </div>
 
             <div className="mt-8 sm:mt-10 pb-10 sm:pb-25 md:pb-10">
@@ -126,8 +191,8 @@ export default function Home() {
                   Trade on Global <br /> markets
                 </h3>
                 <p className="text-sm">
-                  Forex, Crypto Currency, Commodities, Stocks CFDs
-                  Trading and Investing
+                  Forex, Crypto Currency, Commodities, Stocks CFDs Trading and
+                  Investing
                 </p>
               </div>
             </div>
@@ -143,7 +208,8 @@ export default function Home() {
                   Segregated funds <br /> Protection of investment
                 </h3>
                 <p className="text-sm">
-                  We are committed to providing a trusted and reliable trading environment for all our clients
+                  We are committed to providing a trusted and reliable trading
+                  environment for all our clients
                 </p>
               </div>
             </div>
@@ -159,8 +225,8 @@ export default function Home() {
                   Unparalleled <br /> trading conditions
                 </h3>
                 <p className="text-sm">
-                  Trade with fast execution and tight spreads. Supports
-                  all algo trading strategies
+                  Trade with fast execution and tight spreads. Supports all algo
+                  trading strategies
                 </p>
               </div>
             </div>
@@ -185,8 +251,8 @@ export default function Home() {
                   <ChevronRight className="pr-2" /> Deposit & trade Crypto
                 </li>
                 <li className="flex text-xs sm:text-base">
-                  <ChevronRight className="pr-2" /> Trading solutions and resources for all
-                  experience levels
+                  <ChevronRight className="pr-2" /> Trading solutions and
+                  resources for all experience levels
                 </li>
                 <li className="flex text-xs sm:text-base">
                   <ChevronRight className="pr-2" /> World-class customer support
@@ -250,8 +316,8 @@ export default function Home() {
               In-Depth Daily Market Analysis
             </h2>
             <p className="mt-10 text-base md:text-xl">
-              At 999.forex, we believe that the best trader is an educated one. We
-              analyse and explain the price movements of the global markets,
+              At 999.forex, we believe that the best trader is an educated one.
+              We analyse and explain the price movements of the global markets,
               giving traders all the in-depth knowledge they need to make their
               next move.
             </p>
@@ -274,10 +340,12 @@ export default function Home() {
         <div className="flex md:flex-row flex-col gap-10">
           <div className="flex-1 flex flex-col justify-center">
             <div className="xl:pr-60 px-5 md:pr-20 lg:pr-40">
-              <h2 className="text-3xl md:text-5xl font-bold">Super-fast elegant UI</h2>
+              <h2 className="text-3xl md:text-5xl font-bold">
+                Super-fast elegant UI
+              </h2>
               <p className="my-10 text-base md:text-xl">
-                999.forex's super-fast flagship trading platform with elegant UI,
-                Inbuild strategies, streaming market data, advanced charts.
+                999.forex's super-fast flagship trading platform with elegant
+                UI, Inbuild strategies, streaming market data, advanced charts.
                 Experience the way of trading.
               </p>
               <Link
@@ -331,7 +399,9 @@ export default function Home() {
         <div className="flex md:flex-row flex-col">
           <div className="md:flex-1 flex flex-col justify-center">
             <div className="xl:pr-60 px-5 md:pr-20 lg:pr-40">
-              <h2 className="text-3xl md:text-5xl font-bold">Sleek User Interface</h2>
+              <h2 className="text-3xl md:text-5xl font-bold">
+                Sleek User Interface
+              </h2>
               <p className="mt-10 text-base md:text-xl">
                 With a sleek and carefully designed UI, buying, selling,
                 analysing, and managing your portfolio, everything's just a

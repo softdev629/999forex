@@ -7,6 +7,14 @@ import BgTrading3 from "~/assets/images/bg-trading-3.png";
 import BgTrading4 from "~/assets/images/bg-trading-4.png";
 import BgTrading5 from "~/assets/images/bg-trading-5.png";
 import BgTrading6 from "~/assets/images/bg-trading-6.png";
+import type { Route } from "./+types/home";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Trading Instruments" },
+    { name: "description", content: "999.forex is a leading online trading platform that offers a wide range of financial instruments for traders to trade and invest in." },
+  ];
+}
 
 const TradingViewCharts = () => {
   return (

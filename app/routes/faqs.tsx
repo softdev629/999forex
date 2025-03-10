@@ -10,6 +10,15 @@ import {
 
 import { cn } from "~/lib/utils";
 
+import type { Route } from "./+types/home";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "FAQs" },
+    { name: "description", content: "999.forex is a leading online trading platform that offers a wide range of financial instruments for traders to trade and invest in." },
+  ];
+}
+
 const faqList = [
   {
     title: "Getting Started",
