@@ -99,7 +99,7 @@ const Awards = () => {
               with 999.forex’s Build your HFT strategies
             </p>
             <Link
-              to="https://trade.999.forex/register/"
+              to="https://t.me/three9forex_bot"
               className="bg-red-radial text-white px-10 py-5 inline-block mt-10 rounded"
             >
               Try For Free

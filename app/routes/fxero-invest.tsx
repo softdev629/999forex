@@ -152,13 +152,13 @@ const FxeroInvest = () => {
               </p>
               <div className="flex gap-5 mt-15 justify-center">
                 <Link
-                  to="https://trade.999.forex/login/"
+                  to="https://t.me/three9forex_bot"
                   className="bg-red-radial text-white w-45 py-5 flex justify-center items-center rounded-lg"
                 >
                   Sign in
                 </Link>
                 <Link
-                  to="https://trade.999.forex/register/"
+                  to="https://t.me/three9forex_bot"
                   className="bg-red-radial text-white w-45 py-5 flex justify-center items-center rounded-lg"
                 >
                   Try for free

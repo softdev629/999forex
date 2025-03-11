@@ -126,7 +126,7 @@ const Login = () => {
                 <div className="text-center text-white">
                   Don't have an account?{" "}
                   <Link
-                    to="https://trade.999.forex/register/"
+                    to="https://t.me/three9forex_bot"
                     className="text-primary"
                   >
                     Sign up
