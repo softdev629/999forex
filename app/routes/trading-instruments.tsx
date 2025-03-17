@@ -30,7 +30,7 @@ const TradingViewCharts = () => {
               Crypto, Metals, Stocks and Indices.
             </p>
             <Link
-              to="https://t.me/three9forex_bot"
+              to="https://t.me/triple9fx_bot"
               className="bg-red-radial px-9 py-5 rounded text-white text-sm inline-block mb-10 mt-10"
             >
               Open Account
@@ -69,7 +69,7 @@ const TradingViewCharts = () => {
                   </div>
                 </div>
                 <Link
-                  to="https://t.me/three9forex_bot"
+                  to="https://t.me/triple9fx_bot"
                   className="bg-red-radial px-9 py-5 rounded-full text-white text-sm inline-block mb-10 mt-10"
                 >
                   Get Started
@@ -175,7 +175,7 @@ const TradingViewCharts = () => {
                   </div>
                 </div>
                 <Link
-                  to="https://t.me/three9forex_bot"
+                  to="https://t.me/triple9fx_bot"
                   className="bg-red-radial px-9 py-5 rounded-full text-white text-sm inline-block mb-10 mt-10"
                 >
                   Get Started
@@ -277,7 +277,7 @@ const TradingViewCharts = () => {
                   </div>
                 </div>
                 <Link
-                  to="https://t.me/three9forex_bot"
+                  to="https://t.me/triple9fx_bot"
                   className="bg-red-radial px-9 py-5 rounded-full text-white text-sm inline-block mb-10 mt-10"
                 >
                   Get Started

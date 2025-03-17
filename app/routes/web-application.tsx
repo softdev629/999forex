@@ -175,7 +175,7 @@ const WebApplication = () => {
                 </div>
 
                 <Link
-                  to="https://t.me/three9forex_bot"
+                  to="https://t.me/triple9fx_bot"
                   className="bg-red-radial px-9 py-5 rounded text-white text-sm inline-block mb-10"
                 >
                   TRY FOR FREE

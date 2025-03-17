@@ -27,7 +27,7 @@ const FxeroApi = () => {
               including Forex, Crypto, Metals, Stocks etc.
             </p>
             <Link
-              to="https://t.me/three9forex_bot"
+              to="https://t.me/triple9fx_bot"
               className="rounded-lg bg-red-radial text-white px-10 py-5 text-center block w-fit mx-auto mt-10"
             >
               Open Account
@@ -85,7 +85,7 @@ const FxeroApi = () => {
                 </div>
               </div>
               <Link
-                to="https://t.me/three9forex_bot"
+                to="https://t.me/triple9fx_bot"
                 className="bg-red-radial px-9 py-5 rounded-full text-yellow-400 text-sm inline-block mb-10 mt-10"
               >
                 Get Started

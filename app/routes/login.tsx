@@ -126,7 +126,7 @@ const Login = () => {
                 <div className="text-center text-white">
                   Don't have an account?{" "}
                   <Link
-                    to="https://t.me/three9forex_bot"
+                    to="https://t.me/triple9fx_bot"
                     className="text-primary"
                   >
                     Sign up

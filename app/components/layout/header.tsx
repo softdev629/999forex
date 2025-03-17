@@ -137,7 +137,7 @@ const Header = () => {
 
             <NavigationMenuItem>
               <Link
-                to="https://t.me/three9forex_bot"
+                to="https://t.me/triple9fx_bot"
                 className="px-6 py-2 text-sm text-white font-medium bg-gradient-to-b from-[#970020] to-[#4A010F] border-3 rounded-full border-[#FEDC4B] hover:opacity-80 transition-opacity"
               >
                 Login
@@ -225,7 +225,7 @@ const Header = () => {
 
               {/* Login Button */}
               <Link
-                to="https://t.me/three9forex_bot"
+                to="https://t.me/triple9fx_bot"
                 className="inline-block px-6 py-2 text-sm text-white font-medium bg-gradient-to-b from-[#970020] to-[#4A010F] border-3 rounded-full border-[#FEDC4B] hover:opacity-80 transition-opacity"
                 onClick={() => setIsOpen(false)}
               >
